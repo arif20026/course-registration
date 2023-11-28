@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_name": "Introduction to Data Science",
+      "credit": 3,
+      "price": 49.99,
+      "details": "This course provides a comprehensive introduction to the field of data science. Topics covered include data analysis, machine learning, and data visualization.",
+      "image": "https://example.com/intro_to_data_science.jpg"
+    },
+    {
+      "id": 2,
+      "course_name": "Web Development Bootcamp",
+      "credit": 4,
+      "price": 79.99,
+      "details": "Learn the essentials of web development, including HTML, CSS, JavaScript, and popular frameworks. Build real-world projects to enhance your skills.",
+      "image": "https://example.com/web_dev_bootcamp.jpg"
+    },
+    {
+      "id": 3,
+      "course_name": "Digital Marketing Fundamentals",
+      "credit": 2,
+      "price": 39.99,
+      "details": "Explore the basics of digital marketing, including SEO, social media marketing, and email campaigns. Gain practical skills for online promotion.",
+      "image": "https://example.com/digital_marketing_fundamentals.jpg"
+    },
+    {
+      "id": 4,
+      "course_name": "Python Programming Basics",
+      "credit": 3,
+      "price": 59.99,
+      "details": "A beginner-friendly course to learn Python programming. Covers basic syntax, data types, and problem-solving techniques.",
+      "image": "https://example.com/python_programming_basics.jpg"
+    },
+    {
+      "id": 5,
+      "course_name": "Graphic Design Essentials",
+      "credit": 2,
+      "price": 44.99,
+      "details": "Master the fundamentals of graphic design, including color theory, typography, and design principles. Create stunning visual content.",
+      "image": "https://example.com/graphic_design_essentials.jpg"
+    },
+    {
+      "id": 6,
+      "course_name": "Financial Planning and Budgeting",
+      "credit": 3,
+      "price": 69.99,
+      "details": "Learn essential financial planning skills, including budgeting, investing, and retirement planning. Take control of your financial future.",
+      "image": "https://example.com/financial_planning_budgeting.jpg"
+    },
+    {
+      "id": 7,
+      "course_name": "Mobile App Development with React Native",
+      "credit": 4,
+      "price": 89.99,
+      "details": "Build cross-platform mobile apps using React Native. Cover the entire app development lifecycle from design to deployment.",
+      "image": "https://example.com/mobile_app_dev_react_native.jpg"
+    },
+    {
+      "id": 8,
+      "course_name": "Artificial Intelligence Fundamentals",
+      "credit": 3,
+      "price": 59.99,
+      "details": "An introduction to the basics of artificial intelligence. Explore machine learning algorithms, natural language processing, and AI ethics.",
+      "image": "https://example.com/ai_fundamentals.jpg"
+    },
+    {
+      "id": 9,
+      "course_name": "Creative Writing Workshop",
+      "credit": 2,
+      "price": 34.99,
+      "details": "Unlock your creativity in this hands-on creative writing workshop. Explore various writing styles and techniques to express your ideas.",
+      "image": "https://example.com/creative_writing_workshop.jpg"
+    }
+  ]
+  
