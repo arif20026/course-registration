@@ -1,18 +1,22 @@
-import './App.css'
-import Header from './Components/Header/Header'
 
-function App() {
+import Header from "./Components/Header/Header";
+import Cards from "./Components/Cards/Cards";
 
+const App = () => {
   return (
+
     <>
 
-    <Header></Header>
-    
-      
-      
-     
-    </>
-  )
-}
+      <Header></Header>
+      <Cards></Cards>
 
-export default App
+
+    </>
+
+
+
+
+  );
+};
+
+export default App;
