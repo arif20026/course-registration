@@ -11,7 +11,9 @@ const Cards = () => {
     },  [])
 
     return (
-        <div>
+        <div className="md:w-3/4">
+
+            <h1>Cards:{cards.length}</h1>
             
         </div>
     );
