@@ -35,7 +35,10 @@ const App = () => {
 
       });
 
+      
+
     }
+    
   }
 
 
@@ -49,7 +52,7 @@ const App = () => {
 
     }
     else {
-      setCredit(20)
+      setCredit(credit)
       toast.error('Can not add more than 20 credit!', {
         position: 'top-right',
         autoClose: 2000,
