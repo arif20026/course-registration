@@ -22,73 +22,73 @@ const App = () => {
 
     }
 
-    
+
     else {
       setCards(cards)
       toast.error('Course already added!', {
         position: 'top-right',
-        autoClose: 2000, 
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        
+
       });
 
     }
   }
 
-    
+
   const handleAddCredit = nwCredit => {
-    
+
     const newCredit = credit + nwCredit
 
-    if(newCredit<=20){
+    if (newCredit <= 20) {
 
       setCredit(newCredit)
 
     }
-    else{
+    else {
       setCredit(20)
       toast.error('Can not add more than 20 credit!', {
         position: 'top-right',
-        autoClose: 2000, 
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        
+
       });
 
     }
-    
-   
+
+
   }
-
-
- 
-
- 
-
 
   return (
 
     <>
 
-      <Header ></Header>
+      <div className="bg-[#F3F3F3]">
 
-      <div className="md:flex mx-16">
+        <Header ></Header>
 
-        <Cards
-          handleAddToCart={handleAddToCart}
-          handleAddCredit={handleAddCredit}>
+        <div className="md:flex mx-16">
 
-        </Cards>
-        <Cart cards={cards} credit={credit}></Cart>
+          <Cards
+            handleAddToCart={handleAddToCart}
+            handleAddCredit={handleAddCredit}>
 
-        <ToastContainer />
+          </Cards>
+          <Cart cards={cards} credit={credit}></Cart>
+
+          <ToastContainer />
+
+        </div>
 
       </div>
+
+
 
 
 
