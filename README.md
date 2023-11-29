@@ -13,9 +13,7 @@ In React, state management refers to the process of managing the state (data) of
 
 
 - Local Component State:
-React components can have local state managed using the useState hook. This is suitable for managing state that is local to a specific component and doesn't need to be shared with other components.
-
-I used useState hook to for managing submit button and cart section.
+React components can have local state managed using the useState hook. This is suitable for managing state that is local to a specific component and doesn't need to be shared with other components.I used useState hook to for managing submit button and cart section.
 
 
 

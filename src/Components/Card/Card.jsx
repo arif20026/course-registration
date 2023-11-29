@@ -9,7 +9,7 @@ const Card = ({card,handleAddToCart,handleAddCredit}) => {
     const {image,course_name,details,price,credit} = card
 
     return (
-        <div className='border-2 border-solid border-red-600  bg-white rounded-xl'>
+        <div className='  bg-white rounded-xl'>
             <img src={image} alt=""  className='w-full h-52 p-4 rounded-lg'/>
 
             <h2 className='text-[#1C1B1B] text-xl font-semibold pl-4'>{course_name}</h2>
