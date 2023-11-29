@@ -2,9 +2,9 @@
 
 # 3 features of this project:
 
--You can select a course by clicking "Select" button
--You can add courses up to total 20 credit
--You can add a course only once
+- You can select a course by clicking "Select" button
+- You can add courses up to total 20 credit
+- You can add a course only once
 
 # How I managed the state in my assignment
 
@@ -12,14 +12,14 @@ In React, state management refers to the process of managing the state (data) of
 
 
 
--Local Component State:
+- Local Component State:
 React components can have local state managed using the useState hook. This is suitable for managing state that is local to a specific component and doesn't need to be shared with other components.
 
 I used useState hook to for managing submit button and cart section.
 
 
 
--Props:
+- Props:
 
 
 I used card,handleAddToCart,handleAddCredit etc PropTypes to pass data from parent component to a child component.
